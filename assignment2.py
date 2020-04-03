@@ -99,11 +99,7 @@ def calc_true_error(h):
 def calc_empirical_error(samples, h):
     y_samples = samples[:, 1]
     x_samples = samples[:, 0]
-
-    # h_labels = np.array(list(map(determine_label_by_h, x_samples)))
-
     h_labels = [determine_label_by_h(x, h) for x in x_samples]
-
     error_num = np.sum(y_samples != h_labels)
     return error_num / np.size(y_samples)
 
@@ -144,7 +140,6 @@ class Assignment2(object):
         x_samples = np.sort(x_samples)
         y_samples = np.array(list(map(determine_label, x_samples)))
         return np.vstack((x_samples, y_samples)).T
-
 
     def draw_sample_intervals(self, m, k):
         """
@@ -200,9 +195,7 @@ class Assignment2(object):
         plt.plot(m_list, avg_true_error_list, label="avg true errors")
         plt.legend()
         plt.savefig('results/section_c.png')
-
         return np.vstack((avg_empirical_error_list, avg_true_error_list)).T
-
 
     def experiment_k_range_erm(self, m, k_first, k_last, step):
         """Finds the best hypothesis for k= 1,2,...,10.
@@ -283,14 +276,12 @@ class Assignment2(object):
 
         samples = self.sample_from_D(m)
         best_k_list = []
-
         for i in range(T):
             print('{} out of T={}'.format(i, T))
             np.random.shuffle(samples)
             holdout_samples = samples[:m // 5, :]
             train_samples = samples[m // 5:, :]
             train_samples = np.asarray(sorted(train_samples, key=lambda a_entry: a_entry[0]))
-
             min_k = 1
             min_k_holdout_error = 1
             for k in range(1, 10):
@@ -306,12 +297,6 @@ class Assignment2(object):
         print(best_k_list)
         counts = np.bincount(best_k_list)
         return np.argmax(counts)
-
-    #################################
-    # Place for additional methods
-
-
-    #################################
 
 
 if __name__ == '__main__':

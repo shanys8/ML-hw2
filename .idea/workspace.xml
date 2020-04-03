@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af89ce8-019f-4b6b-80b0-201f282a03b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assignment2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="assignment2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="324" selection-start-line="324" selection-end-line="324" />
+            <state relative-caret-position="375">
+              <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
               <folding>
                 <element signature="e#82#100#0" expanded="true" />
               </folding>
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -80,6 +80,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assignment.py" />
+        <option value="$PROJECT_DIR$/assignment2.py" />
       </list>
     </option>
   </component>
@@ -111,6 +112,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,6 +165,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1440" height="789" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -187,22 +194,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>158</line>
+          <line>153</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>234</line>
+          <line>227</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>232</line>
+          <line>225</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>192</line>
+          <line>187</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -212,7 +219,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>193</line>
+          <line>188</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -222,12 +229,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>293</line>
+          <line>284</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/assignment2.py</url>
-          <line>286</line>
+          <line>278</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
@@ -345,18 +352,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        <state relative-caret-position="375">
+          <caret line="298" column="32" selection-start-line="298" selection-start-column="32" selection-end-line="298" selection-end-column="32" />
           <folding>
             <element signature="e#82#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
